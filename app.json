@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "BerrieDex",
+    "slug": "berrie",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./AppIcon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./Splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2D1B69"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.berrie.dex"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./AppIcon.png",
+        "backgroundColor": "#2D1B69"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.berrie.dex"
+    },
+    "web": {
+      "favicon": "./AppIcon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-secure-store",
+      "expo-web-browser"
+    ]
+  }
+}

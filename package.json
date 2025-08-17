@@ -1,0 +1,40 @@
+{
+  "name": "berrie",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@ethersproject/shims": "^5.8.0",
+    "@privy-io/expo": "^0.58.3",
+    "@privy-io/expo-native-extensions": "^0.0.5",
+    "expo": "~53.0.20",
+    "expo-apple-authentication": "~7.2.4",
+    "expo-application": "~6.1.5",
+    "expo-crypto": "~14.1.5",
+    "expo-font": "~13.3.2",
+    "expo-linear-gradient": "~14.1.5",
+    "expo-linking": "~7.1.7",
+    "expo-secure-store": "~14.2.3",
+    "expo-status-bar": "~2.2.3",
+    "expo-web-browser": "~14.2.0",
+    "fast-text-encoding": "^1.0.6",
+    "react": "19.0.0",
+    "react-native": "0.79.5",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-passkeys": "^0.3.3",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-webview": "13.13.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
+  },
+  "private": true
+}
